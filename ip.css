@@ -147,3 +147,27 @@ img{
     opacity: 0;
   }
 
+@media ( max-width:770px){
+    nav > a {
+        display: none;
+    }
+    .header2{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .header2 > h2 {
+        padding: 30px;
+        text-align: center;
+        margin: 0;
+    }
+    .header2 > a {
+        display: none;
+    }
+    .header2 > button {
+        display: none;
+        padding: 20px;
+
+    }
+}
+
